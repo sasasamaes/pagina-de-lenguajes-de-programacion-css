@@ -1,0 +1,88 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header#main-header {
+  text-align: center;
+  background-color: #4caf50; /* Verde */
+  color: white;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+}
+
+h1, h2 {
+  margin: 0.5rem 0;
+}
+
+main#languages {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* Estilos para los bloques de lenguajes */
+div.language {
+  display: inline-block;
+  width: 45%;
+  margin: 1%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+div.language:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+div.language:active {
+  transform: scale(0.98);
+}
+
+/* Colores por dificultad */
+div.language.easy {
+  background-color: #e0ffe0; /* Verde claro */
+}
+
+div.language.medium {
+  background-color: #fff4e0; /* Naranja claro */
+}
+
+div.language.hard {
+  background-color: #ffe0e0; /* Rojo claro */
+}
+
+/* Selectores avanzados */
+#html:hover {
+  background-color: #ffcccb; /* Rosado */
+}
+
+#css:hover {
+  background-color: #add8e6; /* Azul claro */
+}
+
+#javascript:hover {
+  background-color: rgba(255, 223, 186, 0.8); /* Naranja pastel con transparencia */
+}
+
+#python:hover {
+  background-color: #d4af37; /* Oro */
+}
+
+/* Footer */
+footer {
+  display: block;
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #333;
+  color: white;
+  font-size: 0.9rem;
+}
